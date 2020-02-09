@@ -29,7 +29,7 @@ Next step was to extract only the measurements on the mean and standard deviatio
 Finally, I created a TidyData with the average of each variable for each activity and each subject. I used aggregate() function. 
 
 TidyData looks like this:
-
+'''
 > Tidydata[1:6, 1:6]
     subjectId activityId tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z tBodyAcc-std()-X
 1           1          1         0.2773308      -0.017383819        -0.1111481      -0.28374026
@@ -38,3 +38,4 @@ TidyData looks like this:
 91          1          4         0.2612376      -0.001308288        -0.1045442      -0.97722901
 121         1          5         0.2789176      -0.016137590        -0.1106018      -0.99575990
 151         1          6         0.2215982      -0.040513953        -0.1132036      -0.92805647
+'''
