@@ -13,6 +13,7 @@ After that, I named the variables appropriately using the names in the features 
 In order to give descriptive names to the activities in the dataset, I first made a character vector variable named Activitiy_label. Then, I named each descriptive activity name as from 1 to 6 to correspond to the coded numbers in the original dataset. That is, Activity_label looks liks this:
 
 > Activity_label
+
 1     WALKING               
 2     WALKING_UPSTAIRS               
 3     WALKING_DOWNSTAIRS               
